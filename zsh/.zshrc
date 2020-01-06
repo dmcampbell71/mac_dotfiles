@@ -119,3 +119,5 @@ alias ll='\ls -lG'
 #
 
 export PATH=$HOME/bin:$PATH
+bindkey -v
+
