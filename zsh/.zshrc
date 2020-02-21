@@ -112,7 +112,7 @@ setopt HIST_REDUCE_BLANKS
 
 alias ls='ls -aG'
 alias ll='\ls -lG'
-
+alias tree='tree -aCF'
 
 #
 #
