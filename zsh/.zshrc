@@ -121,3 +121,7 @@ alias tree='tree -aCF'
 export PATH=$HOME/bin:$PATH
 bindkey -v
 
+if [ -f ~/.zsh_custom ]; then
+    source ~/.zsh_custom
+fi
+
