@@ -125,4 +125,7 @@ if [ -f ~/.zsh_custom ]; then
     source ~/.zsh_custom
 fi
 
-exec ssh-agent zsh
+eval "$(ssh-agent -s)"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
