@@ -125,3 +125,4 @@ if [ -f ~/.zsh_custom ]; then
     source ~/.zsh_custom
 fi
 
+exec ssh-agent zsh
