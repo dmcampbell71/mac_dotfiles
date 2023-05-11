@@ -125,9 +125,9 @@ if [ -f ~/.zsh_custom ]; then
     source ~/.zsh_custom
 fi
 
+eval "$(ssh-agent -s)"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
 
 # Created by `pipx` on 2023-05-11 01:13:26
 export PATH="$PATH:/Users/dave/.local/bin"
