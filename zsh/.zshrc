@@ -110,8 +110,8 @@ setopt HIST_REDUCE_BLANKS
 # ALIASES
 #
 
-alias ls='ls -aG'
-alias ll='\ls -lG'
+alias ls='ls -a --color=auto'
+alias ll='\ls -l --color=auto'
 alias tree='tree -aCF'
 
 #
@@ -125,3 +125,9 @@ if [ -f ~/.zsh_custom ]; then
     source ~/.zsh_custom
 fi
 
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+
+# Created by `pipx` on 2023-05-11 01:13:26
+export PATH="$PATH:/Users/dave/.local/bin"

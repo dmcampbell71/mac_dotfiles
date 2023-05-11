@@ -1,0 +1,6 @@
+# To support coreutils
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:$PATH
+
+# Add GOPATH
+export PATH=$PATH:$(go env GOPATH)/bin
+export GOPATH=$(go env GOPATH)

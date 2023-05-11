@@ -1,0 +1,20 @@
+node_specs:
+  - extension: pem
+    icon: key
+  - extension: pdf
+    icon: pdf
+nerd_icons:
+  key: "\uf084"
+  pdf: "\uf411"
+emoji_icons:
+  key: "🔑"
+  pdf: "📄"
+prefs:
+  details:
+    - type
+    - perms
+    - user
+    - mtime
+    - size
+    - git
+  units: decimal
